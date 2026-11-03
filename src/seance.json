@@ -1,0 +1,502 @@
+{
+  "rubriques": [
+    [
+      "accueil",
+      "Accueil",
+      "home"
+    ],
+    [
+      "presentation",
+      "Présentation",
+      "play"
+    ],
+    [
+      "methode",
+      "Méthode",
+      "compass"
+    ],
+    [
+      "demonstration",
+      "Démonstration",
+      "layers"
+    ],
+    [
+      "atelier",
+      "Atelier",
+      "edit"
+    ],
+    [
+      "prompts",
+      "Prompts",
+      "braces"
+    ],
+    [
+      "flashcards",
+      "Flashcards",
+      "cards"
+    ],
+    [
+      "quiz",
+      "Quiz",
+      "help"
+    ],
+    [
+      "validation",
+      "Validation",
+      "check"
+    ],
+    [
+      "portfolio",
+      "Portfolio",
+      "folder"
+    ],
+    [
+      "ressources",
+      "Ressources",
+      "book"
+    ]
+  ],
+  "question": "Si votre lecteur ne voyait que trois lignes de votre guide S12, que devrait-il comprendre et quelle action pourrait-il faire ensuite ?",
+  "cal": [
+    [
+      "13",
+      "VEN. 06 NOV.",
+      "Comprendre",
+      "Repérer les faits dans le guide S12 et expliquer une décision."
+    ],
+    [
+      "14",
+      "LUN. 09 NOV.",
+      "Manipuler",
+      "Comparer trois formulations et justifier une correction."
+    ],
+    [
+      "15",
+      "VEN. 13 NOV.",
+      "Approfondir",
+      "Tester une condition et en expliquer la limite."
+    ],
+    [
+      "16",
+      "LUN. 16 NOV.",
+      "Produire",
+      "Exécuter un notebook, corriger puis rouvrir l’export local."
+    ]
+  ],
+  "questions": [
+    [
+      "Projet",
+      "Quel document présentez-vous ?",
+      "Le guide pratique « Produire avec l’IA sous responsabilité humaine », V2 à relire."
+    ],
+    [
+      "Public",
+      "Qui va vous lire ?",
+      "Des formateurs débutants qui relisent un support pédagogique produit avec l’IA."
+    ],
+    [
+      "Besoin",
+      "Quelle difficulté rencontrent-ils ?",
+      "Ils veulent savoir ce qui a été changé entre le premier brouillon et la copie corrigée."
+    ],
+    [
+      "Bénéfice",
+      "Que permet réellement la source ?",
+      "Comparer une correction de fond et une correction de forme dans un journal avant/après."
+    ],
+    [
+      "Action",
+      "Que demandez-vous au lecteur ?",
+      "Une seule réponse à la question « Souhaitez-vous voir un extrait du journal de corrections ? »"
+    ],
+    [
+      "Canal",
+      "Où ce lecteur peut-il vous répondre ?",
+      "Par exemple, un courriel professionnel. Le groupe choisit le canal après le public et l’objectif."
+    ]
+  ],
+  "roles": [
+    [
+      "Humain",
+      "Choisit le public, vérifie le passage, corrige le message et assume son choix."
+    ],
+    [
+      "Assistant IA",
+      "Reformule le texte que vous lui donnez. Vous comparez ses propositions."
+    ],
+    [
+      "Agent IA",
+      "Reçoit une mission, peut choisir des outils autorisés et revient avec des éléments vérifiables."
+    ],
+    [
+      "Python",
+      "Exécute les instructions écrites. Un gabarit assemble les champs et une condition teste la longueur."
+    ],
+    [
+      "Jupyter",
+      "Présente le texte, les cellules de code et les résultats. Le noyau Python exécute le code."
+    ]
+  ],
+  "slides": [
+    [
+      "Du guide S12 au message",
+      "Une séance pour relier une affirmation à sa source et choisir l’action proposée au lecteur.",
+      [
+        "Module 04 · Séance 13",
+        "Vendredi 6 novembre 2026",
+        "90 minutes"
+      ],
+      "Accueillez le groupe. Demandez d’ouvrir le guide S12 et son journal de corrections."
+    ],
+    [
+      "Trois lignes pour présenter votre guide",
+      "Si votre lecteur ne voyait que trois lignes de votre guide S12, que devrait-il comprendre et quelle action pourrait-il faire ensuite ?",
+      [
+        "Laissez 30 secondes de réflexion.",
+        "Recueillez deux réponses différentes."
+      ],
+      "Distinguez l’idée à comprendre de l’action que le lecteur peut faire."
+    ],
+    [
+      "Quatre séances pour passer du guide au message",
+      "Prenez la même source pendant deux semaines.",
+      [
+        "S13 · Comprendre la chaîne",
+        "S14 · Comparer des variantes",
+        "S15 · Expliquer une règle",
+        "S16 · Produire et rouvrir un fichier"
+      ],
+      "Les candidats observent Python en S13 et manipuleront un notebook guidé en S16."
+    ],
+    [
+      "Quel document avons-nous entre les mains ?",
+      "Produire avec l’IA sous responsabilité humaine — Guide pratique",
+      [
+        "Cas fictif du Module 03",
+        "V2 à relire · décision en attente",
+        "Le journal relie la V1 et la V2."
+      ],
+      "Ouvrez le guide et le journal dans Ressources. Faites lire le statut à voix haute."
+    ],
+    [
+      "Six questions avant de choisir un outil",
+      "Prenez le temps d’identifier ce que le lecteur doit comprendre.",
+      [
+        "Projet et public",
+        "Besoin et bénéfice vérifiable",
+        "Action unique et canal adapté"
+      ],
+      "Demandez quelle phrase du guide autorise le bénéfice proposé."
+    ],
+    [
+      "Le lecteur, l’objectif et le canal",
+      "Un formateur veut comparer deux versions d’un même document.",
+      [
+        "Public · formateurs débutants",
+        "Objectif · faire comprendre le rôle de la correction",
+        "Canal possible · courriel professionnel"
+      ],
+      "Changer de canal peut modifier le ton. Les faits restent ceux du document."
+    ],
+    [
+      "Un premier brouillon rédigé à la main",
+      "« Nous avons gardé les deux versions du guide et noté les corrections. Souhaitez-vous voir un extrait du journal de corrections ? »",
+      [
+        "Une information vérifiable",
+        "Un seul appel à l’action"
+      ],
+      "Écrivez-le devant le groupe avant d’afficher les variantes."
+    ],
+    [
+      "Deux brouillons à confronter au guide",
+      "Deux propositions simulées. Quelle phrase pourrez-vous montrer dans la source ?",
+      [
+        "A · Le journal met en regard deux versions.",
+        "B · « Ce guide garantit un document sans erreur. »"
+      ],
+      "Attendez la réponse. A est à étayer dans le journal. La garantie de B n’y figure pas."
+    ],
+    [
+      "La correction que le lecteur peut vérifier",
+      "Dans le journal, « épistémologie du modèle » devient « ce que l’IA sait ou ne sait pas vérifier ».",
+      [
+        "Avant · un terme technique",
+        "Après · une formulation accessible",
+        "Motif · adapter la lecture à un débutant"
+      ],
+      "Faites expliquer la différence entre corriger un mot et prouver une affirmation."
+    ],
+    [
+      "Qui fait quoi dans la mission ?",
+      "Attribuez chaque geste à son responsable.",
+      [
+        "Assistant · propose une formulation",
+        "Agent · inspecte les sources autorisées",
+        "Python · applique une règle",
+        "Humain · tranche et justifie"
+      ],
+      "Jupyter rend l’exécution et le résultat observables dans le même cahier."
+    ],
+    [
+      "Une mission de lecture pour l’agent",
+      "« Relève deux faits, indique le fichier et le passage, puis rends la main. »",
+      [
+        "Entrées · guide et journal fictifs",
+        "Outil · lecture des deux fichiers",
+        "Arrêt · tableau des faits et des écarts"
+      ],
+      "Annoncez que les sorties de la projection sont préparées. Un essai connecté est facultatif sur les seuls fichiers fictifs."
+    ],
+    [
+      "Python assemble les valeurs du gabarit",
+      "Un gabarit reçoit une proposition et une action.",
+      [
+        "proposition = \"Le journal compare deux versions.\"",
+        "action = \"Souhaitez-vous voir un extrait du journal de corrections ?\"",
+        "message = proposition + ' ' + action"
+      ],
+      "Montrez le script exécutable dans Démonstration. Demandez ce qui changera si l’action change."
+    ],
+    [
+      "Une cellule, une modification, un résultat",
+      "Dans Jupyter, le noyau Python exécute la cellule. Le résultat reste visible sous le code.",
+      [
+        "Prédire le résultat",
+        "Changer une valeur puis relancer",
+        "Comparer l’affichage et vérifier les faits"
+      ],
+      "Montrez 400 puis 401 caractères. Un texte court peut encore contenir une promesse inventée."
+    ],
+    [
+      "Une explication en binôme",
+      "Le premier explique son message. Le second demande où se trouve la preuve.",
+      [
+        "Présenter le projet et son public",
+        "Montrer une information sourcée",
+        "Nommer une décision humaine"
+      ],
+      "Inversez les rôles. Le formateur recueille une formulation et son motif."
+    ],
+    [
+      "Samira présente son mini-guide de révisions",
+      "Son guide fictif contient un planning hebdomadaire et une liste de vérification.",
+      [
+        "Public · étudiants",
+        "Besoin · préparer une semaine de révisions",
+        "Action · demander un aperçu"
+      ],
+      "Utilisez ce cas si un guide S12 manque. Écartez toute promesse d’amélioration des notes."
+    ],
+    [
+      "Trois décisions à expliquer",
+      "Conserver, corriger ou écarter une proposition.",
+      [
+        "Conserver un fait dont la source est repérée.",
+        "Corriger une formulation trop technique.",
+        "Écarter une garantie absente de la source."
+      ],
+      "Demandez à chaque binôme une décision et la phrase qui la justifie."
+    ],
+    [
+      "La preuve à recueillir avant S14",
+      "Le candidat montre une source, son message et sa décision.",
+      [
+        "Trace · comprendre-processus-communication.md",
+        "Index · preuves-module-04.md",
+        "Identifiant · preuve-13-processus-communication-assistee"
+      ],
+      "Laissez le statut en attente jusqu’à une décision humaine explicite."
+    ],
+    [
+      "Lundi 9 novembre · S14",
+      "Apportez la fiche de faits, la version humaine et l’action que vous demandez au lecteur.",
+      [
+        "Prochaine étape · trois versions",
+        "Comparer leur ton et leur longueur",
+        "Justifier une correction personnelle"
+      ],
+      "Clôturez avec la consigne d’emporter la trace de S13 dans l’atelier suivant."
+    ]
+  ],
+  "cards": [
+    [
+      "Public ou canal ?",
+      "Le public est la personne visée. Le canal est le support choisi pour la joindre."
+    ],
+    [
+      "Qu’est-ce qu’un bénéfice vérifiable ?",
+      "Une utilité que le passage source permet de décrire, sans inventer de résultat."
+    ],
+    [
+      "Que signifie « V2 à relire » ?",
+      "Une révision existe. Le pilote n’a pas encore exprimé de décision de validation."
+    ],
+    [
+      "Qu’apporte un agent lecteur ?",
+      "Il peut chercher dans les fichiers autorisés, relever des passages et signaler ce qui manque."
+    ],
+    [
+      "Que fait un gabarit Python ?",
+      "Il assemble des données en suivant des instructions écrites."
+    ],
+    [
+      "Quel est le rôle du noyau dans Jupyter ?",
+      "Il exécute le code. Le cahier affiche ensemble les cellules et leurs sorties."
+    ],
+    [
+      "Que prouve le test de 400 caractères ?",
+      "Il indique la longueur par rapport au seuil pédagogique. La fidélité exige une lecture de la source."
+    ],
+    [
+      "Qu’emporter en S14 ?",
+      "Une fiche de faits, une version humaine, une action unique et une preuve que l’on peut expliquer."
+    ]
+  ],
+  "quiz": [
+    [
+      "Quelle est la première pièce à ouvrir ? ",
+      [
+        "Une publication LinkedIn",
+        "Le guide S12 et son journal",
+        "La dernière sortie du notebook"
+      ],
+      1,
+      "Le guide fixe les faits, le statut et le public de départ."
+    ],
+    [
+      "Le journal explique une correction. Que pouvez-vous écrire ?",
+      [
+        "Le guide garantit un résultat",
+        "Tous les relecteurs ont validé",
+        "Le journal compare l’avant et l’après"
+      ],
+      2,
+      "Le journal montre des changements précis. Il ne garantit pas la validité du guide."
+    ],
+    [
+      "Quelle consigne borne le travail d’un agent lecteur ?",
+      [
+        "Inspecte ces deux fichiers et rends deux passages sourcés",
+        "Trouve les coordonnées des participants",
+        "Publie dès que le brouillon semble bon"
+      ],
+      0,
+      "La mission fixe les entrées, l’outil de lecture, la sortie et l’arrêt."
+    ],
+    [
+      "Qui exécute la cellule Python du notebook ?",
+      [
+        "Le fichier Markdown",
+        "Le noyau Python",
+        "Le formulaire du portfolio"
+      ],
+      1,
+      "Jupyter présente la cellule et sa sortie. Le noyau exécute le code."
+    ],
+    [
+      "Un message de 390 caractères garantit un support sans erreur. Que faire ?",
+      [
+        "Le retenir car il est court",
+        "Le valider si le quiz est réussi",
+        "Retirer la garantie et vérifier la source"
+      ],
+      2,
+      "Une mesure de longueur ne peut établir la vérité d’une promesse."
+    ],
+    [
+      "Quelle preuve prépare réellement S14 ?",
+      [
+        "La trace du candidat qui relie un passage au message et motive une décision",
+        "Une capture de l’accueil",
+        "Le seul score du quiz"
+      ],
+      0,
+      "Le formateur examine une production expliquée. La validation lui appartient."
+    ]
+  ],
+  "prompts": [
+    [
+      "01 · Du dossier M03 au message",
+      "Agent lecteur",
+      "Travaille en lecture seule sur les deux fichiers fictifs guide-pratique-v2-a-relire.md et journal-corrections-v1-v2.md. Relève deux faits utiles à un formateur débutant. Pour chacun, donne le nom du fichier, la rubrique et un court extrait exact. Inscris « À VÉRIFIER » si la source manque. Ne modifie rien. Arrête-toi après le tableau."
+    ],
+    [
+      "02 · Brouillons pour un lecteur",
+      "Assistant de rédaction",
+      "À partir de la fiche fictive ci-dessous, propose deux messages courts pour un formateur débutant. Conserve les deux faits vérifiables et une action unique : « Souhaitez-vous voir un extrait du journal de corrections ? » Donne une version directe et une version professionnelle. Signale les inconnues à part. Statut des sorties : brouillons à relire. Fiche : le guide garde V1 et V2 et le journal explique une correction de formulation."
+    ],
+    [
+      "03 · Revue de fidélité",
+      "Agent de relecture",
+      "Compare les deux brouillons à la fiche source et au journal fournis. Pour chaque affirmation donne un passage qui l’étaye ou signale « absent de la source ». Vérifie qu’une seule action est demandée. Rends une liste courte de points à décider par le candidat. Lecture seule. Termine après le relevé, sans valider ni diffuser."
+    ],
+    [
+      "04 · Préparer la preuve",
+      "Retour du candidat",
+      "Pose-moi trois questions, une à la fois : quelle phrase du guide ai-je utilisée, quelle formulation ai-je changée, pourquoi est-ce que j’assume ce choix ? Attends mes réponses. Propose ensuite une trame de trace en Markdown, en laissant la décision du pilote en attente."
+    ]
+  ],
+  "criteres": [
+    "Je retrouve le passage source et son statut.",
+    "Je peux nommer le public et l’action attendue.",
+    "Je distingue la proposition de l’IA, la règle Python et ma décision.",
+    "Je peux expliquer une correction et retrouver ma trace."
+  ],
+  "champs": [
+    [
+      "source",
+      "Document et statut",
+      "Guide, version, rubrique ou page…"
+    ],
+    [
+      "extrait",
+      "Passage source",
+      "Citez une phrase courte ou donnez le passage précis…"
+    ],
+    [
+      "projet",
+      "Projet",
+      "Que présentez-vous ?"
+    ],
+    [
+      "public",
+      "Public",
+      "À quels lecteurs vous adressez-vous ?"
+    ],
+    [
+      "besoin",
+      "Besoin du lecteur",
+      "Quelle difficulté rencontrent-ils ?"
+    ],
+    [
+      "benefice",
+      "Bénéfice vérifiable",
+      "Quelle utilité votre source permet-elle d’annoncer ?"
+    ],
+    [
+      "action",
+      "Action unique",
+      "Que pourra faire le lecteur ?"
+    ],
+    [
+      "canal",
+      "Canal retenu",
+      "Où ce public pourra-t-il répondre ?"
+    ],
+    [
+      "message",
+      "Mon premier message",
+      "Rédigez deux ou trois lignes avec vos mots…"
+    ],
+    [
+      "decision",
+      "Ma correction et sa raison",
+      "Avant / après / pourquoi…"
+    ],
+    [
+      "roles",
+      "Qui a fait quoi ?",
+      "Distinguez l’IA ou l’agent, Python, Jupyter et votre décision…"
+    ]
+  ]
+}
