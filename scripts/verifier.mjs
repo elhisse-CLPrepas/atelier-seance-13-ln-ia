@@ -8,8 +8,9 @@ const read=(p)=>readFile(new URL(p,root),'utf8')
 const data=JSON.parse(await read('src/seance.json'))
 const mandatory=['accueil','presentation','methode','demonstration','atelier','prompts','flashcards','quiz','validation','portfolio','ressources']
 assert.deepEqual(data.rubriques.map(x=>x[0]),mandatory)
-assert.equal(data.slides.length,18);assert.equal(data.cards.length,8);assert.equal(data.quiz.length,6)
-assert.equal(data.prompts.length,4);assert.equal(data.questions.length,6)
+assert.equal(data.slides.length,26);assert.equal(data.cards.length,8);assert.equal(data.quiz.length,6)
+assert.equal(data.prompts.length,7);assert.equal(data.questions.length,6)
+assert.equal(data.affiches.length,5)
 for (const [,choices,i,why] of data.quiz){assert(i>=0&&i<choices.length);assert(why.length>20)}
 for (const [p,rel] of [['dist/index.html','dist/'],['OUVRIR-SEANCE-13.html','']]){
  const html=await read(p)
@@ -21,7 +22,7 @@ for (const [p,rel] of [['dist/index.html','dist/'],['OUVRIR-SEANCE-13.html','']]
  const unique=new Set(links)
  for(const href of unique){const f=await stat(new URL(rel+href.slice(2),root));assert(f.isFile()&&f.size>0,href)}
  const resources=[...new Set([...html.matchAll(/href="\.\/(?:public\/)?(ressources\/[^"]+)"/g)].map(m=>m[1]))]
- assert.equal(resources.length,22)
+ assert.equal(resources.length,30)
  assert(!/<(?:script|link)[^>]+(?:src|href)="https?:[^"]+\.(?:js|css)"/i.test(html))
  if(!rel){
   assert(!/<script[^>]+src=|type="module"/.test(html))
@@ -33,7 +34,7 @@ for (const [p,rel] of [['dist/index.html','dist/'],['OUVRIR-SEANCE-13.html','']]
 const sheet=await readFile(new URL('src/vendor/bootstrap.min.css',root))
 const gitHash=createHash('sha1').update('blob '+sheet.length+'\0').update(sheet).digest('hex')
 console.log('Bootstrap local : empreinte Git '+gitHash)
-console.log('18 diapositives, 8 cartes, 6 questions et 4 prompts. Contrôles terminés.')
+console.log('26 diapositives, 5 affiches, 8 cartes, 6 questions et 7 prompts. Contrôles terminés.')
 
 const values={source:'Guide V2 à relire',extrait:'Conserver V1 et V2',decision:'Remplacer la garantie par un fait.'}
 const trace=buildTrace(values,[true,false,false,false],data),entry=buildIndex(values)

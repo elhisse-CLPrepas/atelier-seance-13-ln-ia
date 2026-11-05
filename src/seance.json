@@ -316,6 +316,68 @@
         "Justifier une correction personnelle"
       ],
       "Clôturez avec la consigne d’emporter la trace de S13 dans l’atelier suivant."
+    ],
+    [
+      "Python : information, instruction, résultat",
+      "Python applique les instructions écrites ; le résultat reste à relire.",
+      [
+        "Variable · une information nommée",
+        "Gabarit · une structure à compléter",
+        "Condition · si la longueur dépasse 400, raccourcir",
+        "Humain · vérifier les faits et expliquer la correction"
+      ],
+      "Source : Guide Python Module 04 · V1 à valider."
+    ],
+    [
+      "Jupyter : observer, modifier, relancer",
+      "Le noyau Python exécute le code. Le notebook réunit texte, code et sorties.",
+      [
+        "Prédire le résultat avant de lancer",
+        "Modifier une information puis relancer",
+        "Comparer les sorties et conserver les corrections",
+        "En S16 · enregistrer le notebook et rouvrir le Markdown"
+      ],
+      "Source : Guide Jupyter Module 04 · V1 à valider."
+    ],
+    [
+      "Le processus complet du Module 04",
+      "Du projet au livrable classé et prouvé.",
+      [
+        "Projet → informations utiles → message structuré",
+        "Variantes adaptées → règles simples → production assistée",
+        "Contrôle humain → livrable classé et prouvé"
+      ],
+      "Source : Prompts maîtres S13 V4 · validée pour usage pédagogique."
+    ],
+    [
+      "Module 04 · Communication assistée",
+      "Comprendre, manipuler, approfondir, produire. L’humain contrôle et décide.",
+      [],
+      "Affiche fournie · conserver son statut de relecture."
+    ],
+    [
+      "S13 · Du guide S12 au message",
+      "Relier chaque affirmation à sa source et justifier une correction.",
+      [],
+      "Affiche fournie · conserver son statut de relecture."
+    ],
+    [
+      "S14 · Un message, trois variantes",
+      "Comparer les tons direct, chaleureux et professionnel en conservant les faits et une action.",
+      [],
+      "Affiche fournie · conserver son statut de relecture."
+    ],
+    [
+      "S15 · Que vérifie une règle ?",
+      "Tester 400 et 401 caractères ; vérifier la fidélité dans la source.",
+      [],
+      "Affiche fournie · conserver son statut de relecture."
+    ],
+    [
+      "S16 · Du notebook au message corrigé",
+      "Exécuter, modifier, corriger, exporter et rouvrir pour retrouver la correction.",
+      [],
+      "Affiche fournie · conserver son statut de relecture."
     ]
   ],
   "cards": [
@@ -434,6 +496,21 @@
       "04 · Préparer la preuve",
       "Retour du candidat",
       "Pose-moi trois questions, une à la fois : quelle phrase du guide ai-je utilisée, quelle formulation ai-je changée, pourquoi est-ce que j’assume ce choix ? Attends mes réponses. Propose ensuite une trame de trace en Markdown, en laissant la décision du pilote en attente."
+    ],
+    [
+      "05 · Document S13-M04-04 · V4",
+      "Présenter le processus global",
+      "Tu es un assistant pédagogique de l’Atelier LN-IA. Explique à un public non programmeur le processus suivant : PROJET → INFORMATIONS UTILES → MESSAGE STRUCTURÉ → VARIANTES ADAPTÉES → RÈGLES SIMPLES → PRODUCTION ASSISTÉE → CONTRÔLE HUMAIN → LIVRABLE CLASSÉ ET PROUVÉ. Utilise des phrases courtes. Distingue clairement ce que fait l’IA, ce que fait Python, ce que montre Jupyter et ce que décide l’humain. N’utilise aucune donnée personnelle. Ne propose aucun envoi automatique. Termine par six questions de compréhension et une trace à produire."
+    ],
+    [
+      "06 · Document S13-M04-04 · V4",
+      "Reformulation socratique",
+      "Pose au candidat six questions courtes sur son projet, son public, son besoin, son bénéfice, l’action attendue et le canal. Après chaque réponse, indique seulement : compris, à préciser, ou pose une question de relance. Ne réponds pas à sa place."
+    ],
+    [
+      "07 · Document S13-M04-04 · V4",
+      "Contrôle qualité",
+      "Analyse le contenu fourni. Vérifie la cohérence avec le Module 04, l’accessibilité du vocabulaire, la distinction entre IA, Python et Jupyter, la place du contrôle humain, l’absence de données sensibles et l’absence d’envoi automatique. Termine par : points conformes, points à corriger, simplifications recommandées, statut À RELIRE ou À CORRIGER."
     ]
   ],
   "criteres": [
@@ -498,5 +575,37 @@
       "Qui a fait quoi ?",
       "Distinguez l’IA ou l’agent, Python, Jupyter et votre décision…"
     ]
+  ],
+  "affiches": [
+    {
+      "title": "Module 04 · Communication assistée",
+      "summary": "Comprendre, manipuler, approfondir, produire. L’humain contrôle et décide.",
+      "path": "affiches/module-04.png",
+      "slide": 21
+    },
+    {
+      "title": "S13 · Du guide S12 au message",
+      "summary": "Relier chaque affirmation à sa source et justifier une correction.",
+      "path": "affiches/seance-13.png",
+      "slide": 22
+    },
+    {
+      "title": "S14 · Un message, trois variantes",
+      "summary": "Comparer les tons direct, chaleureux et professionnel en conservant les faits et une action.",
+      "path": "affiches/seance-14.png",
+      "slide": 23
+    },
+    {
+      "title": "S15 · Que vérifie une règle ?",
+      "summary": "Tester 400 et 401 caractères ; vérifier la fidélité dans la source.",
+      "path": "affiches/seance-15.png",
+      "slide": 24
+    },
+    {
+      "title": "S16 · Du notebook au message corrigé",
+      "summary": "Exécuter, modifier, corriger, exporter et rouvrir pour retrouver la correction.",
+      "path": "affiches/seance-16.png",
+      "slide": 25
+    }
   ]
 }

@@ -38,6 +38,10 @@ function drawSlide(){
  $('#slide-no').textContent='DIAPOSITIVE '+pad(slide+1)+' / '+pad(content.slides.length)
  $('#slide-title').textContent=title;$('#slide-lead').textContent=lead
  $('#slide-items').replaceChildren(...items.map(t=>{const el=document.createElement('li');el.textContent=t;return el}))
+ const poster=content.affiches.find(a=>a.slide===slide)
+ const image=$('#slide-poster');image.hidden=!poster
+ if(poster){image.src=document.querySelector('a[href$="'+poster.path+'"]').href;image.alt=poster.title}
+ else image.removeAttribute('src')
  $('#slide-notes').textContent='Pour le formateur · '+note;$('#slide-notes').hidden=!notes
  $('#slide-note-toggle').setAttribute('aria-pressed',String(notes))
  $('#slide-back').disabled=slide===0;$('#slide-forward').disabled=slide===content.slides.length-1
