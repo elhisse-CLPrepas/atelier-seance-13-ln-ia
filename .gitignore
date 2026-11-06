@@ -10,3 +10,9 @@ __pycache__/
 .ipynb_checkpoints/
 ~$*
 
+# Sauvegardes locales du dossier Module 04
+/mon-dossier-challenge-module04/06-ressources/sauvegardes/
+
+
+# Ancienne copie locale conservée après refus de renommage Windows
+/mon-dossier-challenge/

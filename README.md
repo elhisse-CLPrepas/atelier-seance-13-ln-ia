@@ -131,3 +131,7 @@ git push
 ```
 
 Vérifier ensuite la réussite du workflow dans l’onglet Actions. Pour un travail plus important, créer une branche avec `git switch -c nom-de-la-modification`, puis proposer une pull request vers `main`.
+
+## Dossier de référence du Module 04
+
+Ouvrir [le dossier Module 04](mon-dossier-challenge-module04/README.md) ou directement [la présentation commune aux séances 13 à 16](mon-dossier-challenge-module04/OUVRIR-MODULE-04.html). Le dossier comprend le guide S12, les démonstrations, les fiches et le portfolio. Il est suivi dans ce dépôt ; ses sauvegardes locales sont exclues.
