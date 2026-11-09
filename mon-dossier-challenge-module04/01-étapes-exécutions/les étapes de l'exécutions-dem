@@ -1,0 +1,84 @@
+**Étape 1 — Source identifiée**
+
+Dans `mon-dossier-challenge-module04/06-ressources/sources/` :
+
+- **Guide :** `guide-pratique-v2-a-relire.md`
+- **Version :** V2 — À RELIRE / NON VALIDÉE.
+- **Nature :** cas fictif d’atelier S12.
+- **Journal associé :** `journal-corrections-v1-v2.md`.
+
+**Passage proposé**, rubrique « Étape 3 — Corriger en distinguant le fond et la forme » :
+
+> « Correction de forme : remplacer le jargon “épistémologie du modèle” par “ce que l’IA sait ou ne sait pas vérifier” pour le public débutant. »
+
+Ce passage permet d’expliquer une correction adaptée au lecteur.
+
+**Confirmez-vous ce passage comme point de départ ?** Le prompt prévoit votre confirmation avant de passer au cadrage du message.
+
+**Étape 2 — Cadrage du message**
+
+Complétez ces six éléments en quelques mots :
+
+1. **Projet à présenter :**
+2. **Public visé :**
+3. **Besoin du lecteur :**
+4. **Bénéfice vérifiable :** par exemple, expliquer un terme technique avec des mots accessibles.
+5. **Action unique demandée au lecteur :**
+6. **Canal choisi et pourquoi :** courriel, WhatsApp, autre.
+
+J’ai renseigné la **source et les six réponses** dans `04-communication/comprendre-processus-communication.md`, à partir du cas fictif fourni :
+
+1. **Projet :** présenter le guide S12.
+2. **Public :** formateurs débutant avec l’IA.
+3. **Besoin :** comprendre l’apport d’une relecture.
+4. **Bénéfice :** examiner une correction et sa justification.
+5. **Action :** demander un extrait du journal de corrections.
+6. **Canal :** court courriel professionnel pour LinkedIn.
+
+**Étape 3 :** rédigez maintenant votre propre message en **2 ou 3 lignes**, avec un fait vérifiable et l’action proposée. Le prompt prévoit de conserver votre rédaction avant les reformulations IA.
+
+L’exemple de l’atelier est enregistré dans la fiche S13 :
+
+> Vous relisez un document préparé avec l’IA. Dans notre exemple, vous pouvez comparer une première rédaction et sa version corrigée. Souhaitez-vous voir un extrait du journal de corrections ?
+
+Il est identifié comme **exemple fourni par l’atelier**, avec sa source, et non comme votre rédaction personnelle.
+
+**Étape 4 réalisée et enregistrée** dans la fiche S13 :
+
+- **A — Direct :** présente la correction précise du terme technique.
+- **B — Professionnel :** présente l’exemple et sa justification.
+
+Les deux brouillons sont étayés par les sources et proposent une seule action : demander l’extrait du journal. **Aucune affirmation non justifiée repérée.**
+
+Pour continuer : **retenez-vous A ou B, et souhaitez-vous modifier une formulation ?**
+
+**Étape 5 terminée et enregistrée dans la fiche S13.** J’ai retenu B et rendu la correction plus concrète :
+
+> Vous débutez en production assistée par IA ? Dans cet exemple fictif du guide S12, le journal montre le remplacement de « épistémologie du modèle » par « ce que l’IA sait ou ne sait pas vérifier » et en explique la raison. Souhaitez-vous voir un extrait du journal de corrections ?
+
+L’**avant/après et le motif** sont conservés. Les choix sont attribués à l’assistant, conformément à votre demande.
+
+Prochaine étape : **observer Python et Jupyter**.
+
+Dans le dossier **`mon-dossier-challenge-module04\06-ressources\demo`** :
+
+- **Python :** ouvrez [demonstration-s13.py](D:/ATELIERS-Challenge-100-AUTOMNE/ATELIERS-MODULE-04/atelier-seance-13-ln-ia/mon-dossier-challenge-module04/06-ressources/demo/demonstration-s13.py) dans VS Code.
+- **Jupyter :** ouvrez [demonstration-s13.ipynb](D:/ATELIERS-Challenge-100-AUTOMNE/ATELIERS-MODULE-04/atelier-seance-13-ln-ia/mon-dossier-challenge-module04/06-ressources/demo/demonstration-s13.ipynb) dans VS Code avec l’extension Jupyter.
+
+**Avant d’exécuter**, repérez dans Python :
+
+1. Une variable : `ACTION`.
+2. Le gabarit : la fonction `assembler`.
+3. Une condition : `len(texte) > seuil`.
+
+Puis prédisez : **si vous changez `ACTION`, que changera le message affiché ?** Exécutez ensuite pour comparer à votre prédiction.
+
+
+La **prédiction théorique** est enregistrée dans `05-automatisation/OBSERVATIONS-S13.md` :
+
+- Modifier `ACTION` changera l’action affichée et éventuellement la longueur du message.
+- Modifier seulement `PUBLIC` changera la présentation du public, sans modifier le message assemblé.
+
+**Aucune exécution ni observation pratique n’est attestée.**
+
+L’étape suivante est le **classement de la preuve dans le portfolio**, avec cette limite explicitement indiquée et la validation du pilote en attente.

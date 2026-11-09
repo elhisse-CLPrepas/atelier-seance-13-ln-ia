@@ -1,0 +1,9 @@
+/06-ressources/sauvegardes/
+.env
+.env.*
+*.log
+__pycache__/
+.ipynb_checkpoints/
+~$*
+Thumbs.db
+.DS_Store
